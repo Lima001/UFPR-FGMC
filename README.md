@@ -2,7 +2,7 @@
 
 Vehicle recognition from images is a crucial component of Intelligent Transportation Systems (ITS), supporting applications such as automated tolling, access control, and forensics. Fine-Grained Vehicle Classification (FGVC) extends this capability by identifying vehicles by their specific make, model, and type. However, existing research has largely centered on four-wheeled vehicles, with motorcycles receiving limited attention despite representing a substantial share of traffic in many countries, including Brazil. This underrepresentation can reduce the effectiveness and fairness of ITS solutions.
 
-To address this gap, our work, entitled **"A Study on Fine-Grained Motorcycle Classification for Intelligent Transportation Systems"** [[PDF]](./pdfs/lima2025fgmc.pdf), investigates Fine-Grained Motorcycle Classification (FGMC) in real-world ITS scenarios. We evaluated seven deep learning architectures under two training protocols for independent make and model classification. To enable this study, we augmented the [RodoSol-ALPR](https://github.com/raysonlaroca/rodosol-alpr-dataset) dataset — a widely adopted source for Automatic License Plate Recognition (ALPR) — with motorcycle make and model annotations. This effort resulted in two new datasets: *MotorcycleMake* and *MotorcycleModel*.
+To address this gap, our work, entitled **"A Study on Fine-Grained Motorcycle Classification for Intelligent Transportation Systems"** [[PDF]](./pdfs/lima2025fgmc.pdf), investigates Fine-Grained Motorcycle Classification (FGMC) in real-world ITS scenarios. We evaluated seven deep learning architectures under two training protocols for independent make and model classification. To enable this study, we augmented the a widely adopted Automatic License Plate Recognition (ALPR) dataset with motorcycle make and model annotations. This effort resulted in two datasets: *MotorcycleMake* and *MotorcycleModel*.
 
 ## About MotorcycleMake and MotorcycleModel
 
@@ -10,7 +10,7 @@ The two datasets are:
 * **MotorcycleMake**: Contains 6,230 images across 7 make classes.
 * **MotorcycleModel**: Contains 5,827 images across 29 model classes.
   
-All images are sourced from the RodoSol-ALPR, a dataset reflecting a real-world Intelligent Transportation System (ITS) scenario at toll booths on a Brazilian highway. Our work utilizes the subset of images that depict motorcycles. As showcased in Fig. 1, these images pose a significant classification challenge, stemming from both the wide range of environmental conditions captured (such as varied lighting and weather) and the restrictive rear-view perspective, which makes it inherently difficult to distinguish between visually similar motorcycles models.
+All images are sourced from the [RodoSol-ALPR](https://github.com/raysonlaroca/rodosol-alpr-dataset) dataset, reflecting a real-world Intelligent Transportation System (ITS) scenario of toll booths on a Brazilian highway. Our work utilizes only the subset of motorcycle images. As showcased in Fig. 1, these images pose a significant classification challenge, stemming from both the wide range of environmental conditions captured (such as varied lighting and weather) and the restrictive rear-view perspective, which makes it inherently difficult to distinguish between visually similar motorcycles.
 
 <figure>
     <figcaption>
@@ -47,11 +47,11 @@ Fig. 2 presents the class distribution for each subset, revealing a long-tailed 
 
 <br>
 
-Regarding privacy, the data originates from public roads in Brazil, where license plates are associated with vehicles only, and no public information about vehicle drivers or owners is available. Furthermore, the original RodoSol-ALPR dataset already anonymizes any human faces that may appear in the images.
+Regarding privacy, the data originates from public roads in Brazil, where license plates are associated with vehicles only, and no public information about vehicle drivers or owners is available. Furthermore, the original source dataset already anonymizes any human faces that may appear in the images.
 
-## How to Obtain the Dataset
+## How to Obtain the Datasets
 
-As our dataset is derived from RodoSol-ALPR, we grant access to the images, annotations, and data splits upon request, subject to the signing of a licensing agreement. The data is released strictly for academic research and is free to researchers from educational or research institutes for **non-commercial purposes only**.
+As the datasets are derived from [RodoSol-ALPR](https://github.com/raysonlaroca/rodosol-alpr-dataset) dataset, we grant access to the images, annotations, and data splits upon request, subject to the signing of a licensing agreement. The data is released strictly for academic research and is free to researchers from educational or research institutes for **non-commercial purposes only**.
 
 To request access, please follow these steps:
 1.  Review the [**license agreement**](./pdfs/license_agreement.pdf).
