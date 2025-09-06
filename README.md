@@ -9,8 +9,8 @@ To address this gap, our work, entitled **"A Study on Fine-Grained Motorcycle Cl
 The two datasets are:
 * **MotorcycleMake**: Contains 6,230 images across 7 make classes.
 * **MotorcycleModel**: Contains 5,827 images across 29 model classes.
-
-Fig. 1 shows sample images shared by both datasets, illustrating the variety of conditions and the challenge of distinguishing visually similar motorcycles from a limited viewing perspective.
+  
+All images are sourced from the RodoSol-ALPR, a dataset reflecting a real-world Intelligent Transportation System (ITS) scenario at toll booths on a Brazilian highway. Our work utilizes the subset of images that depict motorcycles. As showcased in Fig. 1, these images pose a significant classification challenge, stemming from both the wide range of environmental conditions captured (such as varied lighting and weather) and the restrictive rear-view perspective, which makes it inherently difficult to distinguish between visually similar motorcycles models.
 
 <figure>
     <figcaption>
