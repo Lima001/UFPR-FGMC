@@ -1,4 +1,4 @@
-# UFPR-FGMC Dataset
+# UFPR-FGMC
 
 Vehicle recognition from images is a crucial component of Intelligent Transportation Systems (ITS), supporting applications such as automated tolling, access control, and forensics. Fine-Grained Vehicle Classification (FGVC) extends this capability by identifying vehicles by their specific make, model, and type. However, existing research has largely centered on four-wheeled vehicles, with motorcycles receiving limited attention despite representing a substantial share of traffic in many countries, including Brazil. This underrepresentation can reduce the effectiveness and fairness of ITS solutions.
 
@@ -16,27 +16,33 @@ All images are sourced from the RodoSol-ALPR, a dataset reflecting a real-world 
     <figcaption>
         <b>Fig. 1.</b> Samples appearing in both the MotorcycleMake and MotorcycleModel datasets. The first and second text rows below each image show the motorcycle make and model, respectively. These examples illustrate variations in lighting conditions and capture angles.
     </figcaption>
-  <img src="./imgs/ufpr_fgmc_samples.png" alt="Samples from UFPR-FGMC datasets">
+  <p align="center">
+    <img src="./imgs/ufpr_fgmc_samples.png" alt="Samples from UFPR-FGMC datasets" width=500>
+  </p>
 </figure>
 
 <br>
 
 Fig. 2 presents the class distribution for each subset, revealing a long-tailed pattern typical of Brazilian traffic, where a few makes and models dominate.
 
-<figure>
-  <p>
-    <img src="./imgs/motorcycle_make_dist.png" alt="Class distribution in the MotorcycleMake dataset">
-    <br>
-    (a) MotorcycleMake
-  </p>
-  <p>
-    <img src="./imgs/motorcycle_model_dist.png" alt="Class distribution in the MotorcycleModel dataset">
-    <br>
-    (b) MotorcycleModel
-  </p>
+<figure align="center">
   <figcaption>
     <b>Fig. 2.</b> Class distribution in the (a) MotorcycleMake and (b) MotorcycleModel datasets.
   </figcaption>
+  <table align="center" border="0">
+    <tr>
+      <td align="center" style="padding-right: 15px;">
+        <img src="./imgs/motorcycle_make_dist.png" alt="Class distribution in the MotorcycleMake dataset" width="400">
+        <br>
+        <em>(a) MotorcycleMake</em>
+      </td>
+      <td align="center" style="padding-left: 15px;">
+        <img src="./imgs/motorcycle_model_dist.png" alt="Class distribution in the MotorcycleModel dataset" width="400">
+        <br>
+        <em>(b) MotorcycleModel</em>
+      </td>
+    </tr>
+  </table>
 </figure>
 
 <br>
@@ -49,7 +55,7 @@ As our dataset is derived from RodoSol-ALPR, we grant access to the images, anno
 
 To request access, please follow these steps:
 1.  Review the [**license agreement**](./pdfs/license_agreement.pdf).
-2.  Sign the agreement and email the completed document to Rayson Laroca at **rayson@ppgia.pucpr.br**.
+2.  Sign the agreement and email the completed document to Rayson Laroca (who also manages access to the [RodoSol-ALPR](https://github.com/raysonlaroca/rodosol-alpr-dataset) dataset) at **rayson@ppgia.pucpr.br**.
 3.  Ensure your request is sent from a valid university email account (e.g., .edu, .ac, or similar).
 
 You can expect to receive a download link within 1-5 business days. Please note that failure to follow these instructions may result in your request not being processed.
