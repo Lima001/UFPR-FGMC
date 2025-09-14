@@ -67,7 +67,7 @@ If you use the MotorcycleMake or MotorcycleModel datasets in your research, plea
 * G. E. Lima, E. Santos, E. Nascimento Jr., R. Laroca, and D. Menotti, "A Study on Fine-Grained Motorcycle Classification for Intelligent Transportation Systems," in *Anais Estendidos da XXXVII Conference on Graphics, Patterns and Images (SIBGRAPI)*, pp. 1-6, Oct. 2025. [SBC-OpenLib] [[ResearchGate]]()
 
 ```
-@inproceedings{lima2025fgmc,
+@inproceedings{lima2025study,
 title     = {A Study on Fine-Grained Motorcycle Classification for Intelligent Transportation Systems},
   author    = {G. E. {Lima} and E. {Santos} and E. {Nascimento Jr.} and R. {Laroca} and D. {Menotti}},
   year      = {2025},
