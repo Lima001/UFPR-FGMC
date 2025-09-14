@@ -72,7 +72,7 @@ title     = {A Study on Fine-Grained Motorcycle Classification for Intelligent T
   author    = {G. E. {Lima} and E. {Santos} and E. {Nascimento Jr.} and R. {Laroca} and D. {Menotti}},
   year      = {2025},
   month     = {Oct},
-  booktitle = {Anais Estendidos da XXXVII Conference on Graphics, Patterns and Images (SIBGRAPI)},
+  booktitle = {Anais Estendidos da XXXVIII Conference on Graphics, Patterns and Images (SIBGRAPI)},
   pages     = {1-6},
   doi       = {}
 }
